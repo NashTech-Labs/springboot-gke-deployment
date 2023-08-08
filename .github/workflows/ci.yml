@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - main
+      - <branch_name>
 jobs:
   build_and_package:
     name: Build And Package
